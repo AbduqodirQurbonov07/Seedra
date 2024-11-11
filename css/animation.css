@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.contaneir {
+  width: 100vw;
+
+  margin: 400px auto;
+}
+.box {
+  border-radius: 30%;
+  width: 180px;
+  height: 130px;
+  background-color: wheat;
+  animation-name: box-for;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.box:hover {
+  animation-play-state: paused;
+}
+@keyframes box-for {
+  0% {
+    position: relative;
+    right: 0px;
+
+    transform: rotate(0deg);
+  }
+  10% {
+    position: relative;
+    right: -100px;
+    transform: rotate(18deg);
+  }
+  20% {
+    position: relative;
+    right: -200px;
+    transform: rotate(36deg);
+  }
+  30% {
+    position: relative;
+    right: -300px;
+    transform: rotate(54deg);
+  }
+  40% {
+    position: relative;
+    right: -400px;
+    transform: rotate(72deg);
+  }
+  50% {
+    position: relative;
+    right: -500px;
+    transform: rotate(90deg);
+  }
+  60% {
+    position: relative;
+    right: -600px;
+    transform: rotate(108deg);
+  }
+  70% {
+    position: relative;
+    right: -700px;
+    transform: rotate(126deg);
+  }
+  80% {
+    position: relative;
+    right: -800px;
+    transform: rotate(144deg);
+  }
+  90% {
+    position: relative;
+    right: -900px;
+    transform: rotate(162deg);
+  }
+  100% {
+    background-color: blueviolet;
+    position: relative;
+    right: -1000px;
+    transform: rotate(180deg);
+  }
+}

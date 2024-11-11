@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      select {
+        width: 400px;
+        height: 50px;
+      }
+      .text1 {
+        width: 190px;
+        height: 50px;
+      }
+      .blue {
+        color: blue;
+      }
+      #big {
+        width: 392px;
+        height: 50px;
+      }
+      .text2 {
+        width: 192px;
+        height: 55px;
+      }
+      #sd1 {
+        background-color: blue;
+        color: white;
+      }
+      .sd1 {
+        background-color: blue;
+        color: white;
+      }
+      .text4 {
+        width: 277px;
+        height: 55px;
+      }
+      .text3 {
+        width: 100px;
+        height: 55px;
+      }
+      .texta {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1><label class="blue" for="">General Infomation</label></h1>
+      <br />
+      <br />
+
+      <select>
+        <option value="te">Title</option>
+        <option value="te">Title2</option>
+        <option value="te">Title3</option>
+        <option value="te">Title4</option>
+      </select>
+      <br />
+      <br />
+      <input class="text1" type="text" placeholder="Frist Name" />
+      <input class="text1" type="text" placeholder="Last Name" />
+      <br />
+      <br />
+      <select>
+        <option value="po">Position</option>
+        <option value="po">Position2</option>
+        <option value="po">Position3</option>
+        <option value="po">Position4</option>
+      </select>
+      <br />
+      <br />
+      <input id="big" type="text" placeholder="Position" />
+      <br />
+      <br />
+      <input class="text1" type="text" placeholder="Bussnines Arena" />
+      <select class="text2">
+        <option value="em">Employees</option>
+        <option value="em">Employees1</option>
+        <option value="em">Employees2</option>
+        <option value="em">Employees3</option>
+      </select>
+    </form>
+    <br />
+    <br />
+    <br />
+
+    <form class="sd1">
+      <h1>Contact Details</h1>
+      <input id="big" class="sd1" type="text" placeholder="Street + Nr" />
+      <br />
+      <br />
+      <input
+        id="big"
+        class="sd1"
+        type="text"
+        placeholder="Additional Information"
+      />
+      <br />
+      <br />
+      <input id="sd1" type="text" class="text3" placeholder="Zip Code" />
+      <input type="text" id="sd1" class="text4" placeholder="Place" />
+      <br />
+      <br />
+      <input id="big" class="sd1" type="text" placeholder="Country" />
+      <br />
+      <br />
+      <input id="sd1" class="text3" type="text" placeholder="Code +" />
+      <input type="tel" id="sd1" class="text4" placeholder="Phone Number" />
+      <br />
+      <br />
+      <input type="email" id="big" class="sd1" placeholder="Your email" />
+      <br />
+      <br />
+      <input type="checkbox" name="site" />
+      <label for="site"
+        >I do accept the <u>Terms and Conditions</u> of your <br />
+        site.</label
+      >
+      <br />
+      <br />
+      <br />
+      <button class="text3" type="submit">REGISTER</button>
+    </form>
+    <br />
+    <br />
+    <form>
+      <h3>User personal information</h3>
+      <br />
+      <br />
+      <label for=""> enter your full name </label> <br />
+      <input id="big" type="text" placeholder="Rahul Kumar" />
+      <br />
+      <br />
+      <label for="email"> enter your email</label> <br />
+      <input
+        type="email"
+        id="big"
+        name="email"
+        placeholder="geeks@12345gmail.com "
+      />
+      <br />
+      <label for="">enter your password</label>
+      <br />
+      <input id="big" type="password" placeholder="233" />
+      <br />
+      <br />
+      <label for="">confirm you password</label>
+      <br />
+
+      <input id="big" type="password" placeholder="" />
+      <br />
+      <br />
+      <label for="">enter your gander </label><br />
+      <label class="texta" for=" gender">mele </label>
+      <input class="texta" type="radio" name="gender" />
+      <label class="texta" for=" gender">femele</label>
+      <input class="texta" type="radio" name="gender" />
+      <label class="texta" for="gender"> other</label>
+      <input class="texta" type="radio" name="gender" />
+      <br />
+      <br />
+      <label for="">enter your date of birth</label> <br />
+      <input type="date" id="big" placeholder="10-06-2009" />
+      <br />
+      <br />
+      <label for="">enter your address:</label> <br />
+      <textarea id="big" placeholder=""> Noide Sector 137 </textarea>
+      <br />
+      <br />
+      <button class="text3" type="submit">submit</button>
+    </form>
+  </body>
+</html>

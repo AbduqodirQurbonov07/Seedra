@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  /* width: 1290px; */
+  margin: 30px;
+}
+.uzum-1 {
+  display: flex;
+  flex-direction: column;
+  /* padding: 24px; */
+  border: 2px solid rgb(239, 239, 239);
+  width: 213px;
+  border-radius: 12px;
+}
+.img-het {
+  height: 270px;
+  width: 210px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.c-sh {
+  color: rgb(190, 190, 190);
+  margin: 5px 0;
+}
+.c-narx {
+  color: rgb(190, 190, 190);
+  text-decoration: line-through;
+  margin: 10px 0;
+}
+
+.c-te {
+  max-width: 200px;
+}
+.c-in {
+  padding: 10px;
+}
+.c-oy {
+  background-color: yellow;
+  border-radius: 4px;
+  width: 100px;
+}
+.c-oyi {
+  background-color: yellow;
+  border-radius: 4px;
+  width: 110px;
+}

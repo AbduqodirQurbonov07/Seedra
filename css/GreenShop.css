@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px auto;
+}
+
+.Green-nav {
+  padding: 20px 0;
+  width: 1180px;
+  /* width: 1200px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+.nav-blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+}
+.nav-blog a:hover {
+  font-weight: 500;
+  padding: 20px 0;
+  border-bottom: 2px solid #46a358;
+}
+.nav-blog-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 18px;
+  color: #46a358;
+  border-color: #46a358;
+  border-radius: 4px;
+}
+.nav-btn span {
+  color: #46a358;
+}
+
+.nav-btn-a :hover {
+  background-color: #46a358;
+  color: white;
+  border-color: transparent;
+}
+.green-menu-1 {
+  background: linear-gradient(
+    134.56deg,
+    rgba(245, 245, 245, 0.5) -23.457%,
+    rgba(245, 245, 245, 0.5) 107.508%
+  );
+  width: 1050px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+
+  padding: 43px 62px;
+}
+.menu-1-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.menu-1-img-1 {
+  position: relative;
+  top: 106px;
+  left: 140px;
+}
+.menu-1-img-2 {
+  width: 400px;
+  height: 400px;
+}
+.menu-1-title {
+  padding: 8 0px;
+}
+.menu-1-title-1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 16px;
+  color: #3d3d3d;
+}
+.menu-1-title-2 {
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 70px;
+}
+.menu-1-green {
+  color: #46a358;
+}
+.menu-1-title-3 {
+  color: rgb(114, 114, 114);
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.menu-1-btn {
+  border-radius: 6px;
+  color: white;
+  background: rgb(70, 163, 88);
+}

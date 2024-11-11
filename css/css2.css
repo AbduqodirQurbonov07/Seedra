@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-het {
+  height: 270px;
+  width: 210px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.c-sh {
+  color: rgb(190, 190, 190);
+  margin: 5px 0;
+}
+.c-narx {
+  color: rgb(190, 190, 190);
+  text-decoration: line-through;
+  margin: 10px 0;
+}
+.cantener {
+  padding: 20px 50px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.c-te {
+  max-width: 200px;
+}
+.c-in {
+  padding: 10px;
+}
+.c-oy {
+  background-color: yellow;
+  border-radius: 4px;
+  width: 100px;
+}
+.c-oyi {
+  background-color: yellow;
+  border-radius: 4px;
+  width: 110px;
+}

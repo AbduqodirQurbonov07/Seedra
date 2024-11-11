@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown-menu</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap);
+
+      * {
+        font-family: "Kanit", sans-serif;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      .contenier {
+        margin: 450px 630px;
+      }
+      .drop-menu {
+        display: inline-block;
+        position: relative;
+      }
+      .dropdown-btn {
+        font-size: 18px;
+        display: inline-block;
+        border: 1px solid rgb(210, 210, 210);
+        background-color: white;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .dropdown-btn:hover {
+        background-color: rgb(241, 241, 241);
+      }
+      .label {
+        padding: 6px;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        font-weight: 600;
+      }
+      .content {
+        position: absolute;
+        display: none;
+        border: 1px solid rgb(210, 210, 210);
+        padding: 6px 12px;
+        width: 250px;
+        box-shadow: 3px 3px 4px rgb(236, 236, 236);
+        border-radius: 6px;
+        bottom: 45px;
+        left: -88px;
+      }
+      .dropdown-one:hover,
+      .dropdown-two:hover,
+      .dropdown-three:hover,
+      .log-out:hover {
+        background-color: rgb(241, 241, 241);
+        border-radius: 4px;
+      }
+      ul li {
+        padding: 4px 8px;
+      }
+      .items {
+        border-bottom: 1px solid rgb(210, 210, 210);
+      }
+      .drop-menu:hover .content {
+        display: inline-block;
+        cursor: pointer;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="contenier">
+      <div class="drop-menu">
+        <button class="dropdown-btn">Open</button>
+        <div class="content">
+          <p class="label">My Account</p>
+          <ul class="items">
+            <li class="dropdown-one">
+              <i class="fa-regular fa-user"></i> Profile
+            </li>
+
+            <li class="dropdown-one">
+              <i class="fa-regular fa-credit-card"></i> Billing
+            </li>
+
+            <li class="dropdown-one">
+              <i class="fa-solid fa-gear"></i> Settings
+            </li>
+
+            <li class="dropdown-one">
+              <i class="fa-regular fa-keyboard"></i>
+              Keyboard shortcuts
+            </li>
+          </ul>
+
+          <ul class="items">
+            <li class="dropdown-two">
+              <i class="fa-solid fa-people-group"></i> Team
+            </li>
+
+            <li class="dropdown-two">
+              <i class="fa-solid fa-user-plus"></i> Invite users
+            </li>
+
+            <li class="dropdown-two">
+              <i class="fa-solid fa-plus"></i> New Team
+            </li>
+          </ul>
+
+          <ul class="items">
+            <li class="dropdown-three">
+              <i class="fa-brands fa-github"></i> GitHub
+            </li>
+
+            <li class="dropdown-three">
+              <i class="fa-regular fa-life-ring"></i> Support
+            </li>
+            <li class="dropdown-three">
+              <i class="fa-solid fa-cloud"></i> API
+            </li>
+          </ul>
+          <ul class="log">
+            <li class="log-out">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i> Log out
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

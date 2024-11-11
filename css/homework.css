@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.contenier {
+  margin: 450px 630px;
+}
+.drop-menu {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-btn {
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid rgb(210, 210, 210);
+  background-color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.dropdown-btn:hover {
+  background-color: rgb(241, 241, 241);
+}
+.label {
+  padding: 6px;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  font-weight: 600;
+}
+.content {
+  position: absolute;
+  display: none;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 6px 12px;
+  width: 250px;
+  box-shadow: 3px 3px 4px rgb(236, 236, 236);
+  border-radius: 6px;
+  bottom: 45px;
+  left: -88px;
+}
+.dropdown-one:hover,
+.dropdown-two:hover,
+.dropdown-three:hover,
+.log-out:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 4px;
+}
+ul li {
+  padding: 4px 8px;
+}
+.items {
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+.drop-menu:hover .content {
+  display: inline-block;
+}

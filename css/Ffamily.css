@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text {
+  font-family: fantasy;
+  /* font-family: "Kanit", sans-serif; */
+  /* font-weight: bolder; */
+  text-shadow: 3px 2px 10px blue;
+  font-style: italic;
+}

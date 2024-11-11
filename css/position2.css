@@ -1,0 +1,194 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  /* color: black; */
+}
+.header {
+  background-color: #da002b;
+  padding: 10px 30px;
+  height: 55px;
+}
+.header-left {
+  display: inline-block;
+}
+.header-right {
+  display: inline-block;
+  margin-left: 300px;
+}
+.header-left li,
+.header-right li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-language {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+  border-left: 1px solid #ffffffb3;
+  border-right: 1px solid #ffffffb3;
+}
+.header-btn button {
+  padding: 5px 12px;
+  border: 1.5px solid white;
+  border-radius: 8px;
+}
+.bg-white {
+  background-color: white;
+  color: #da002b;
+}
+.bg-red {
+  background-color: #da002b;
+  color: white;
+}
+.bg-white:hover {
+  background-color: #da002b;
+  color: white;
+}
+.bg-red:hover {
+  background-color: white;
+  color: #da002b;
+}
+.map {
+  margin: 0 30px;
+}
+.map a {
+  color: white;
+}
+.number a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.map a:hover,
+.number a:hover {
+  color: #ffffffb3;
+}
+.lang-item a {
+  color: #ffffffb3;
+}
+.active {
+  margin: 0 20px;
+}
+.active a {
+  color: white;
+}
+.active a:hover {
+  color: #ffffffb3;
+}
+.lang-item a:hover {
+  color: white;
+}
+.mx {
+  margin: 0 20px;
+}
+
+input {
+  outline: none;
+}
+.card {
+  width: 100vw;
+  text-align: center;
+  background-color: #ffffffb3;
+  /* margin: 70px 60px; */
+  display: inline-block;
+  height: 80px;
+  border: 1px solid #ffffffb3;
+  position: sticky;
+  top: 0;
+}
+.nav-img {
+  width: 100px;
+  vertical-align: bottom;
+  margin: 13px 30px;
+  display: inline-block;
+}
+.kat {
+  display: inline-block;
+}
+.nav {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.nav-right,
+.nav-left,
+.nav-icons {
+  display: inline-block;
+}
+.nav-right li,
+.nav-left li {
+  display: inline-block;
+}
+.nav a {
+  display: inline-block;
+}
+.nav-btn {
+  margin: 5px;
+  padding: 10px 0;
+  vertical-align: bottom;
+  border-radius: 8px;
+  background-color: white;
+  width: 120px;
+}
+.nav-int {
+  border-radius: 8px;
+  padding: 2px 2px 2px 2px;
+  border-color: transparent;
+  background-color: rgb(234, 234, 234);
+  margin: 5px 10px;
+  /* width: 600px; */
+  display: inline-block;
+}
+.nav-btn1 {
+  background-color: #da002b;
+  color: white;
+  border-color: transparent;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-left: 300px;
+}
+.nav-icon1 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon2 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon3 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon4 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-btn:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon1:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon2:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon3:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon4:hover {
+  color: #da002b;
+  border-color: #da002b;
+}

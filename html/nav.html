@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style-type: none;
+        /* color: black; */
+      }
+      input {
+        outline: none;
+      }
+      .card {
+        background-color: white;
+        margin: 70px 60px;
+        display: inline-block;
+      }
+      .nav-img {
+        width: 100px;
+        vertical-align: bottom;
+        margin: 13px 30px;
+      }
+      .kat {
+        display: inline-block;
+      }
+      .nav {
+        display: inline-block;
+        vertical-align: bottom;
+      }
+      .nav-right,
+      .nav-left,
+      .nav-icons {
+        display: inline-block;
+      }
+      .nav-btn {
+        margin: 5px;
+        padding: 10px 0;
+        vertical-align: bottom;
+        border-radius: 8px;
+        background-color: white;
+        width: 120px;
+      }
+      .nav-int {
+        border-radius: 8px;
+        padding: 2px 2px 2px 2px;
+        border-color: transparent;
+        background-color: rgb(234, 234, 234);
+        margin: 5px 10px;
+        /* width: 600px; */
+
+        display: inline-block;
+      }
+      .nav-btn1 {
+        background-color: #da002b;
+        color: white;
+        border-color: transparent;
+        padding: 7px 20px;
+        border-radius: 8px;
+        margin-left: 300px;
+      }
+      .nav-icon1 {
+        text-align: center;
+        color: black;
+        margin: 3px 15px;
+      }
+      .nav-icon2 {
+        text-align: center;
+        color: black;
+        margin: 3px 15px;
+      }
+      .nav-icon3 {
+        text-align: center;
+        color: black;
+        margin: 3px 15px;
+      }
+      .nav-icon4 {
+        text-align: center;
+        color: black;
+        margin: 3px 15px;
+      }
+      .nav-btn:hover {
+        color: #da002b;
+        border-color: #da002b;
+      }
+      .nav-icon1:hover {
+        color: #da002b;
+        border-color: #da002b;
+      }
+      .nav-icon2:hover {
+        color: #da002b;
+        border-color: #da002b;
+      }
+      .nav-icon3:hover {
+        color: #da002b;
+        border-color: #da002b;
+      }
+      .nav-icon4:hover {
+        color: #da002b;
+        border-color: #da002b;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="card">
+      <ul class="nav-right nav">
+        <li class="nav">
+          <a href="">
+            <img
+              class="nav-img nav"
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </a>
+        </li>
+        <li class="nav">
+          <a href="">
+            <button class="nav-btn nav">
+              <i class="fa-solid fa-bars kat"></i>
+              <p class="kat">Katalog</p>
+            </button>
+          </a>
+        </li>
+      </ul>
+      <ul class="nav-left nav">
+        <li class="nav-int nav">
+          <form class="nav" action="">
+            <input
+              class="nav-int nav"
+              type="text"
+              placeholder="Katalog bo'yicha qidirish "
+            />
+          </form>
+          <button class="nav-btn1 nav">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </li>
+
+        <ul class="nav-icons">
+          <li class="nav">
+            <a class="nav-icon1 nav" href="">
+              <i class="fa-solid fa-chart-simple"></i>
+              <p>Taqqoslash</p>
+            </a>
+          </li>
+          <li class="nav">
+            <a class="nav-icon2 nav" href="">
+              <i class="fa-regular fa-heart"></i>
+              <p>sevimlilar</p>
+            </a>
+          </li>
+          <li class="nav">
+            <a class="nav-icon3 nav" href="">
+              <i class="fa-regular fa-cart-shopping"></i>
+              <p>Savatcha</p>
+            </a>
+          </li>
+          <li class="nav">
+            <a class="nav-icon4 nav" href="">
+              <i class="fa-regular fa-user"></i>
+              <p>Kirish</p>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+    <svg
+      width="5750.000000"
+      height="241.406250"
+      viewBox="0 0 5750 241.406"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <desc>Created with Pixso.</desc>
+      <defs />
+      <rect
+        id="Rectangle"
+        x="5707.000000"
+        y="0.406250"
+        width="43.000000"
+        height="28.000000"
+        fill="#FF4A32"
+        fill-opacity="1.000000"
+      />
+      <path
+        id="Sale"
+        d="M5731.6 18.4L5732.69 18.4L5732.69 9.4L5731.6 9.4L5731.6 18.4ZM5718.44 13.58Q5719.1 14.18 5720.55 14.6Q5721.7 14.93 5722.14 15.28Q5722.29 15.4 5722.39 15.55Q5722.58 15.84 5722.58 16.25Q5722.58 16.6 5722.43 16.87Q5722.31 17.08 5722.1 17.24Q5721.63 17.6 5720.74 17.6Q5719.78 17.6 5719.21 17.15Q5718.97 16.96 5718.83 16.72Q5718.64 16.38 5718.64 15.93L5717.51 15.93Q5717.51 16.38 5717.66 16.77Q5717.76 17.03 5717.92 17.26Q5717.93 17.26 5717.93 17.27Q5718.34 17.85 5719.1 18.18Q5719.24 18.25 5719.39 18.3Q5720.03 18.52 5720.74 18.52Q5722.09 18.52 5722.9 17.89Q5723.29 17.59 5723.49 17.2Q5723.71 16.77 5723.71 16.23Q5723.71 15.6 5723.43 15.12Q5723.43 15.11 5723.42 15.1Q5723.13 14.62 5722.53 14.26Q5721.93 13.9 5720.87 13.6Q5719.8 13.3 5719.36 12.94Q5719.08 12.72 5718.98 12.43Q5718.92 12.26 5718.92 12.06Q5718.92 11.66 5719.1 11.36Q5719.21 11.18 5719.38 11.04Q5719.85 10.68 5720.68 10.68Q5721.58 10.68 5722.07 11.12Q5722.2 11.24 5722.3 11.39Q5722.56 11.77 5722.56 12.34L5723.69 12.34Q5723.69 11.98 5723.59 11.64Q5723.5 11.32 5723.31 11.03Q5723.23 10.9 5723.13 10.77Q5722.78 10.36 5722.25 10.09Q5721.56 9.75 5720.68 9.75Q5719.48 9.75 5718.7 10.33Q5718.64 10.37 5718.59 10.41Q5718.15 10.77 5717.95 11.23Q5717.78 11.62 5717.78 12.08Q5717.78 12.52 5717.94 12.89Q5718.1 13.27 5718.44 13.58ZM5728.74 17.73Q5728.8 18.21 5728.9 18.4L5730.03 18.4L5730.03 18.31Q5729.81 17.79 5729.81 16.92L5729.81 14Q5729.79 13.3 5729.46 12.82Q5729.34 12.64 5729.17 12.49Q5729.16 12.49 5729.15 12.48Q5728.53 11.94 5727.45 11.94Q5726.76 11.94 5726.19 12.2Q5726.18 12.2 5726.18 12.2Q5725.61 12.46 5725.27 12.9Q5725.27 12.9 5725.27 12.9Q5724.97 13.29 5724.93 13.69Q5724.93 13.76 5724.93 13.82L5726.02 13.82Q5726.02 13.69 5726.05 13.58Q5726.14 13.31 5726.41 13.11Q5726.45 13.08 5726.49 13.05Q5726.86 12.82 5727.38 12.82Q5728.03 12.82 5728.37 13.14Q5728.38 13.15 5728.39 13.15Q5728.46 13.23 5728.52 13.32Q5728.73 13.62 5728.73 14.06L5728.73 14.56L5727.67 14.56Q5726.31 14.56 5725.55 15.11Q5725.23 15.34 5725.05 15.65Q5724.8 16.07 5724.8 16.64Q5724.8 17.07 5724.96 17.42Q5725.11 17.74 5725.4 17.99Q5725.52 18.09 5725.65 18.18Q5726.19 18.52 5726.94 18.52Q5727.4 18.52 5727.8 18.37Q5728.32 18.17 5728.74 17.73ZM5735.57 18.16Q5736.21 18.52 5737.05 18.52Q5738 18.52 5738.67 18.09Q5739.12 17.79 5739.44 17.29L5738.78 16.78Q5738.52 17.12 5738.18 17.34Q5738.13 17.37 5738.08 17.4Q5737.68 17.63 5737.11 17.63Q5736.66 17.63 5736.3 17.46Q5736.01 17.31 5735.78 17.06Q5735.7 16.97 5735.64 16.88Q5735.25 16.34 5735.23 15.54L5739.52 15.54L5739.52 15.09Q5739.52 13.57 5738.84 12.76Q5738.64 12.52 5738.39 12.35Q5737.79 11.94 5736.92 11.94Q5736.59 11.94 5736.28 12.02Q5735.88 12.13 5735.51 12.36Q5735.34 12.48 5735.18 12.62Q5734.77 12.98 5734.51 13.52Q5734.15 14.26 5734.15 15.21L5734.15 15.41Q5734.15 16.58 5734.7 17.36Q5734.81 17.52 5734.95 17.67Q5735.23 17.97 5735.57 18.16ZM5736.3 12.96Q5736.58 12.83 5736.92 12.83Q5737.37 12.83 5737.7 13.04Q5737.86 13.14 5738 13.29Q5738.39 13.74 5738.44 14.57L5738.44 14.65L5735.26 14.65Q5735.37 13.79 5735.82 13.31Q5736.03 13.08 5736.3 12.96ZM5727.47 17.54Q5727.29 17.58 5727.1 17.58Q5726.64 17.58 5726.32 17.36Q5726.27 17.33 5726.22 17.29Q5726.12 17.2 5726.04 17.09Q5725.88 16.84 5725.88 16.49Q5725.88 16.19 5726.01 15.97Q5726.39 15.33 5727.88 15.33L5728.73 15.33L5728.73 16.63Q5728.69 16.7 5728.65 16.77Q5728.44 17.09 5728.06 17.31Q5727.78 17.48 5727.47 17.54Z"
+        fill="#000000"
+        fill-opacity="1.000000"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  /* color: black; */
+}
+.card {
+  background-color: white;
+  margin: 70px 60px;
+  display: inline-block;
+}
+.nav-img {
+  width: 100px;
+  vertical-align: bottom;
+  margin: 13px 30px;
+}
+.kat {
+  display: inline-block;
+}
+.nav {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.nav-right,
+.nav-left,
+.nav-icons {
+  display: inline-block;
+}
+.nav-btn {
+  margin: 5px;
+  padding: 10px 0;
+  vertical-align: bottom;
+  border-radius: 8px;
+  background-color: white;
+  width: 120px;
+}
+.nav-int {
+  border-radius: 8px;
+  padding: 2px 2px;
+  border-color: transparent;
+  background-color: rgb(234, 234, 234);
+  margin: 5px 10px;
+
+  display: inline-block;
+}
+.nav-btn1 {
+  background-color: #da002b;
+  color: white;
+  border-color: transparent;
+  padding: 7px 20px;
+  border-radius: 8px;
+  margin-left: 300px;
+}
+.nav-icon1 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon2 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon3 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-icon4 {
+  text-align: center;
+  color: black;
+  margin: 3px 15px;
+}
+.nav-btn:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon1:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon2:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon3:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
+.nav-icon4:hover {
+  color: #da002b;
+  border-color: #da002b;
+}
